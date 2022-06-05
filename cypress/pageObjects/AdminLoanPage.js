@@ -2,9 +2,10 @@
 
 class AdminLoanPage {
 
-  filterByMobile() {
+
+  filterByMobile(mobile) {
     cy.get('#filter_mobile').click();
-    cy.get('#filter_mobile').type('9600485022');
+    cy.get('#filter_mobile').type(mobile);
     cy.get('.jss10').click();
     cy.wait(5000);
 
