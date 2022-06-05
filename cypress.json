@@ -1,0 +1,5 @@
+{
+  "baseUrl": "https://admin.stage.mahila.money",
+  "defaultCommandTimeout": 10000,
+  "pageLoadTimeout": 50000
+}
